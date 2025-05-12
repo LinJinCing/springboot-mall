@@ -8,6 +8,8 @@ public class ProductQueryParams {
     String search;
     String orderBy;
     String sort;
+    int limit;
+    int offset;
 
     public ProductCategory getCategory() {
         return category;
@@ -39,5 +41,21 @@ public class ProductQueryParams {
 
     public void setSort(String sort) {
         this.sort = sort;
+    }
+
+    public int getLimit() {
+        return limit;
+    }
+
+    public void setLimit(int limit) {
+        this.limit = limit;
+    }
+
+    public int getOffset() {
+        return offset;
+    }
+
+    public void setOffset(int offset) {
+        this.offset = offset;
     }
 }

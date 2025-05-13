@@ -2,7 +2,7 @@ package com.sean.springbootmall.dao.impl;
 
 import com.sean.springbootmall.dao.UserDao;
 import com.sean.springbootmall.dto.UserRegisterRequest;
-import com.sean.springbootmall.madel.User;
+import com.sean.springbootmall.model.User;
 import com.sean.springbootmall.rowmapper.UserRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

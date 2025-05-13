@@ -2,7 +2,7 @@ package com.sean.springbootmall.controller;
 
 import com.sean.springbootmall.dto.UserLoginRequest;
 import com.sean.springbootmall.dto.UserRegisterRequest;
-import com.sean.springbootmall.madel.User;
+import com.sean.springbootmall.model.User;
 import com.sean.springbootmall.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

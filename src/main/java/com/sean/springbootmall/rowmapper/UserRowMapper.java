@@ -1,6 +1,6 @@
 package com.sean.springbootmall.rowmapper;
 
-import com.sean.springbootmall.madel.User;
+import com.sean.springbootmall.model.User;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

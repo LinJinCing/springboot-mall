@@ -1,7 +1,6 @@
-package com.sean.springbootmall.madel;
+package com.sean.springbootmall.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 

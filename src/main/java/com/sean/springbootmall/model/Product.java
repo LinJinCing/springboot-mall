@@ -1,4 +1,4 @@
-package com.sean.springbootmall.madel;
+package com.sean.springbootmall.model;
 
 import com.sean.springbootmall.constant.ProductCategory;
 

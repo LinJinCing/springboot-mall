@@ -1,7 +1,7 @@
 package com.sean.springbootmall.rowmapper;
 
 import com.sean.springbootmall.constant.ProductCategory;
-import com.sean.springbootmall.madel.Product;
+import com.sean.springbootmall.model.Product;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

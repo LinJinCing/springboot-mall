@@ -3,7 +3,7 @@ package com.sean.springbootmall.service.impl;
 import com.sean.springbootmall.dao.UserDao;
 import com.sean.springbootmall.dto.UserLoginRequest;
 import com.sean.springbootmall.dto.UserRegisterRequest;
-import com.sean.springbootmall.madel.User;
+import com.sean.springbootmall.model.User;
 import com.sean.springbootmall.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
